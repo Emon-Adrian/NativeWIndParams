@@ -12,7 +12,7 @@ const Step1 = ({}) => {
     const base = useSelector(state => state.base)
 
     const [text, setText] = React.useState("");
-    console.log(text)
+    //console.log(text)
 
   return (
     <View className="flex-1 m-4">
